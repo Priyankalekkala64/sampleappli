@@ -9,6 +9,7 @@ CREATE COMPUTE MODULE sampleappli_Compute
 		SET OutputRoot.JSON.Data.students.student.id= InputRoot.XMLNSC.students.student.id;
 		SET OutputRoot.JSON.Data.students.student.name= InputRoot.XMLNSC.students.student.name;
 		SET OutputRoot.JSON.Data.students.student.age= InputRoot.XMLNSC.students.student.age;
+		
 		RETURN TRUE;
 	END;
 
